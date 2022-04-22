@@ -4,7 +4,7 @@ public class Aula03 {
 
 	public static void main(String[] args) {
 
-		int nota1 = 20;
+		int nota1 = 100;
 		int nota2 = 100;
 		int nota3 = 100;
 		int nota4 = 100;
@@ -16,7 +16,11 @@ public class Aula03 {
 
 		if (media >= 50) {
 			if (media >= 70) {
-				System.out.println("Aprovado");
+				if (media == 100) {
+					System.out.println("APROVADO COM 10 PARABÉNS");
+				} else {
+					System.out.println("Aprovado");
+				}
 			} else {
 				System.out.println("Recuperação");
 			}
