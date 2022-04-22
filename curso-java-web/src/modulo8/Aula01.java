@@ -15,13 +15,5 @@ public class Aula01 {
 		} else {
 			System.out.println("Aluno não encontrado");
 		}
-		
-		//Operador ternario;
-		System.out.println((mediaAluno >= 70) ? "Aprovado" : "Reprovado");
-		
-		
-		//Operador ternario com mais de uma condição;
-		System.out.println((mediaAluno >= 70 && nome.equalsIgnoreCase("edvaldo")) ? "Aprovado" : (mediaAluno >= 40  && mediaAluno <= 69) ? "Recuperação" : "Reprovado");
-		
 	}
 }
