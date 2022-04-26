@@ -18,7 +18,7 @@ public class Aula04 {
         case 7 -> System.out.println("Sábado");
 	
 		default ->
-		throw new IllegalArgumentException("Numero invalido " + dia);
+		throw new IllegalArgumentException("N " + dia);
 		}
     }
 }
