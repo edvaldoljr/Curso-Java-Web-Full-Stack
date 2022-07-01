@@ -6,7 +6,7 @@ public class Aula04 {
     public static void main(String[] args) {
 
         System.out.println("Digite um dia da semana em números");
-        int dia = 8;
+        int dia = 7;
         
         switch (dia) {
         case 1 -> System.out.println("Domingo");
